@@ -6,7 +6,7 @@ DELETE FROM Products;
 DELETE FROM Customers;
 
 INSERT INTO Customers (ID, FirstName, LastName, Email, Address) VALUES (1, 'John', 'Doe', 'john.doe@example.com', '123 Main St');
-INSERT INTO Products (ID, Name, Description, Price, WarehouseAmount) VALUES (1, 'AwersomeProduct', 'An awesome product', 1000, 10);
+INSERT INTO Products (ID, Name, Description, Price, WarehouseAmount) VALUES (1, 'AwersomeProduct', 'An awesome product', 1000, 42);
 
 START TRANSACTION;
 INSERT INTO Orders (CustomerID, Date) VALUES (1, '2023-01-01');
